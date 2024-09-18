@@ -1,0 +1,168 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+    color: #faebd7;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #202020;
+    width: 100%;
+    height: 80px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 40px;
+}
+h1{
+    font-size: 70px;
+}
+h4{
+    font-size: 30px;
+}
+h1,h4,h2,h3,p{
+    margin: 0;
+}
+.headerlo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+.headim{
+    margin-left: 5px;
+}
+.sitlog{
+    margin-left: 15px;
+    width: 50px;
+    border-radius: 50%;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    color: #faebd7;
+    align-items: center;
+    padding-top: 15px;
+    margin-right: 30px;
+}
+.link{
+    color: #faebd7;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 5px;
+    transition: transform .2s;
+}
+.link:hover{
+    color: #fa0297;
+    border-bottom: 2px solid #fa0297 ;
+}
+.container{
+    position: relative;
+}
+.btm{
+    width: 100%;
+}
+.up{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 180px;
+    display: block;
+}
+.headtext{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    display: block;
+}
+
+p{
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+    background-color: #202020;
+    width: 100%;
+    height: 300px;
+}
+.foots{
+    margin: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+    margin-left: 50px;
+}
+.footmar{
+    margin-left: 40px;
+}
+.sole{
+    display: block; 
+    margin-top: 50px; 
+    margin-left: 100px;
+    justify-content: right;
+}
+.cont{
+    margin-right: 10px;
+    width: 60px;
+    transition: transform .2s;
+}
+.cont:hover{
+    transform: scale(1.5);
+}
+.events{
+    background-color: aliceblue;
+
+}
+.events h4{
+    color: #202020;
+    padding: 20px;
+}
+.recent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+    margin-left:20px ;
+    padding-right: 20px;
+}
+.recent img{
+    width: 300px;
+    margin-left:10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+.recent img:hover{
+    transform: rotate(3deg);
+}
+.recent h2{
+    font-size: 20px;
+    color: #202020;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+}
+.hover-text {
+    visibility: hidden;
+    background-color: rgba(15, 15, 15, 0.745);
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: visibility 0.3s, opacity 0.3s;
+  }
+.huy{
+    position: relative;
+}
+  .huy:hover .hover-text {
+    visibility: visible;
+  }
